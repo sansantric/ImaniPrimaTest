@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password456"
+    },
+    {
+      "id": 3,
+      "name": "David Johnson",
+      "email": "david@example.com",
+      "password": "password789"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "email": "emily@example.com",
+      "password": "passwordabc"
+    },
+    {
+      "id": 5,
+      "name": "Michael Davis",
+      "email": "michael@example.com",
+      "password": "passworddef"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Wilson",
+      "email": "sarah@example.com",
+      "password": "passwordghi"
+    },
+    {
+      "id": 7,
+      "name": "Christopher Martinez",
+      "email": "christopher@example.com",
+      "password": "passwordjkl"
+    },
+    {
+      "id": 8,
+      "name": "Amanda Taylor",
+      "email": "amanda@example.com",
+      "password": "passwordmno"
+    },
+    {
+      "id": 9,
+      "name": "Matthew Anderson",
+      "email": "matthew@example.com",
+      "password": "passwordpqr"
+    },
+    {
+      "id": 10,
+      "name": "Jessica Thomas",
+      "email": "jessica@example.com",
+      "password": "passwordstu"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "userid": 1,
+      "title": "Buy groceries",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "userid": 2,
+      "title": "Attend meeting",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "userid": 3,
+      "title": "Finish report",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "userid": 4,
+      "title": "Call client",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "userid": 5,
+      "title": "Walk the dog",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "userid": 6,
+      "title": "Plan vacation",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "userid": 7,
+      "title": "Write blog post",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "userid": 8,
+      "title": "Create presentation",
+      "completed": true
+    },
+    {
+      "id": 9,
+      "userid": 9,
+      "title": "Study for exam",
+      "completed": false
+    },
+    {
+      "id": 10,
+      "userid": 10,
+      "title": "Prepare dinner",
+      "completed": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "todosid": 1,
+      "title": "Grocery List",
+      "body": "Milk, Bread, Eggs"
+    },
+    {
+      "id": 2,
+      "todosid": 2,
+      "title": "Meeting Notes",
+      "body": "Discuss project roadmap"
+    },
+    {
+      "id": 3,
+      "todosid": 3,
+      "title": "Report Summary",
+      "body": "Analyze data and conclusions"
+    },
+    {
+      "id": 4,
+      "todosid": 4,
+      "title": "Client Conversation",
+      "body": "Follow-up on project status"
+    },
+    {
+      "id": 5,
+      "todosid": 5,
+      "title": "Dog Walking Tips",
+      "body": "Keep dog on leash, bring water"
+    },
+    {
+      "id": 6,
+      "todosid": 6,
+      "title": "Vacation Itinerary",
+      "body": "Book flights, reserve hotels"
+    },
+    {
+      "id": 7,
+      "todosid": 7,
+      "title": "Blog Ideas",
+      "body": "Technology trends, personal experiences"
+    },
+    {
+      "id": 8,
+      "todosid": 8,
+      "title": "Blog Ideas",
+      "body": "Technology trends, personal experiences"
+    },
+    {
+      "id": 9,
+      "todosid": 9,
+      "title": "Blog Ideas",
+      "body": "Technology trends, personal experiences"
+    },
+    {
+      "id": 10,
+      "todosid": 10,
+      "title": "Blog Ideas",
+      "body": "Technology trends, personal experiences"
+    }
+  ]
+}

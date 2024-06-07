@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Data Table</h1>
+    <button id="addButton" ><i class="fa-solid fa-plus"></i> Add</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Todo Title</th>
+                <th>Todo Status</th>
+                <th>Post Title</th>
+                <th>Post Text</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="data-table-body">
+        </tbody>
+    </table>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="formTitle">Tambah Data</h2>
+            <form id="addForm">
+                <label for="userName">User Name:</label>
+                <input type="text" id="userName" name="userName" required>
+                
+                <label for="todoTitle">Todo Title:</label>
+                <input type="text" id="todoTitle" name="todoTitle" required>
+                
+                <label for="todoCompleted">Todo Completed:</label>
+                <select id="todoCompleted" name="todoCompleted" required>
+                    <option value="false">No</option>
+                    <option value="true">Yes</option>
+                </select>
+                
+                <label for="postTitle">Post Title:</label>
+                <input type="text" id="postTitle" name="postTitle">
+                
+                <label for="postBody">Post Body:</label>
+                <textarea id="postBody" name="postBody"></textarea>
+                
+                <button type="submit" id="submit">Add</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
